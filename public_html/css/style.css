@@ -43,12 +43,12 @@ h3 {
     font-size: 3rem;
     font-weight: 400; 
     font-family: 'Yanone Kaffeesatz', sans-serif, Arial, serif; 
-    
+
 }
 
 .blue_bgd{
-        background-color: #D4DEDF;
-        color: #000;
+    background-color: #D4DEDF;
+    color: #000;
 }
 
 th {
@@ -59,10 +59,18 @@ th {
     font-size: 1.8rem;
     background-color: #D4DEDF;
     background-color: #9ab4cd;
-    
+
 }
 
 td {
     vertical-align: middle;
     text-align:center;
+}
+
+footer {
+    text-align:center;
+    background-color:#337AB7;
+    color:#FFF;
+    font-size: 1.3rem;
+    
 }
