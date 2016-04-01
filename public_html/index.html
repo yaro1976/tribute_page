@@ -19,31 +19,66 @@
         <div class="container">
             <!--Header part -->
             <header>
-                <div class="jombotron">
-                    <div class="row">
 
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Le_Havre_vue_de_la_plage.JPG" alt="Photo du Havre du de la plage" height="768" width="1024" />
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Paris_-_palais_de_l%27%C3%89lys%C3%A9e_-_cour_02.JPG/800px-Paris_-_palais_de_l%27%C3%89lys%C3%A9e_-_cour_02.JPG" alt="Photo de l'Elysee" height="768" width="1024" />
-
-
-                        <!-- Title part of the article -->
-                        <div class="col-md-4 col-md-offset-4">
-                            <h1>Tribute to</h1>
-                        </div>
-                    </div>
-                    <!-- Add a photo of René Coty -->
-                    <div class="row">
-                        <div class="col-md-4 col-md-offset-4">
-                            <img class="img-thumbnail text-center img-responsive" src="http://www.elysee.fr/assets/Uploads/Anciens-Presidents/06Coty.jpg" alt="Picture of René Coty" >
-                        </div>
-                        <h2> René Coty</h2>
+                <div class="row">
+                    <!-- Title part of the article -->
+                    <div class="col-md-4 col-md-offset-4">
+                        <h1>Tribute to René Coty</h1>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="container-fluid">
+                        <!-- Carousel -->
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>                                
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Le_Havre_vue_de_la_plage.JPG" alt="Photo du Havre du de la plage" height="768" width="1140" class="img-carousel" />
+                                    <div class="carousel-caption">
+                                        <p>Le Havre</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Paris_-_palais_de_l%27%C3%89lys%C3%A9e_-_cour_02.JPG/800px-Paris_-_palais_de_l%27%C3%89lys%C3%A9e_-_cour_02.JPG" alt="Photo de l'Elysee" height="768" width="1140"  class="img-carousel" />
+                                    <div class="carousel-caption">
+                                        <p>L'Elysée</p>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- Add a photo of René Coty -->
+                        <img class="main-img img-circle img-responsive" src="http://www.elysee.fr/assets/Uploads/Anciens-Presidents/06Coty.jpg" alt="Picture of René Coty" >
+                    </div>
+
+
+                    <!-- End of carousel -->
+                </div>
+
+                
+
+
+
+
             </header>
             <!-- End of Header part -->
             <!--Main part -->
             <main>
-
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -56,21 +91,21 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
-                       
+
                         <div class="col-md-6">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula orci, pulvinar ac faucibus eu, consectetur sit amet urna. Quisque ac diam gravida, accumsan augue eu, fringilla lacus. Donec vel viverra risus. Donec lectus nulla, scelerisque non augue eget, maximus faucibus libero. Quisque consequat quis mi sed elementum. Suspendisse eleifend justo sed ligula congue, in finibus mi cursus. Vivamus rutrum tellus eget odio facilisis, finibus volutpat metus ultrices. Donec rhoncus, velit in iaculis dignissim, odio lacus faucibus metus, non imperdiet ex est non lorem.
                             </p>
                         </div>
-                         <div class="col-md-6">
+                        <div class="col-md-6">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Ren%C3%A9_Coty_en_1948.JPG" alt="Coty en 1948" height="320" width="240" />
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -83,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!--
                 <div class="row">
                     <div class="container">
@@ -207,8 +242,8 @@
                         </div>
                     </div>
                 </div>
--->
-                
+                -->
+
             </main>
             <footer>
                 <div class="row">

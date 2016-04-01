@@ -9,12 +9,13 @@ and open the template in the editor.
 */
 
 body {
-    background-color: #150000;
+    background-color: #FFF;
 }
 
 header {
-    background-color:#b4afaf;
-    margin-bottom:  10px;
+    background-color:#c9c9c9;
+    margin-bottom:  10px;    
+    height: 1050px;
 }
 
 container {
@@ -34,7 +35,8 @@ img {
 }
 
 main {    
-    background-color: #b4afaf ;    
+    background-color: #C9C9C9 ;    
+    padding: 20px;
 }
 
 table {
@@ -73,8 +75,22 @@ td {
 
 footer {
     text-align:center;
-    background-color:#337AB7;
+    background-color:#000;
     color:#FFF;
     font-size: 1.3rem;
     
+}
+
+.main-img {
+    position:relative;
+    bottom: 650px;
+    margin-left:auto;
+    margin-right: auto;    
+    /*border: 5px solid white;*/
+}
+
+.img-carousel{
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
 }
