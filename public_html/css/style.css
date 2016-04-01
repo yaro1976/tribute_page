@@ -8,8 +8,12 @@ and open the template in the editor.
     Author     : yaro
 */
 
+body {
+    background-color: #150000;
+}
+
 header {
-    background-color:#E5E5E5;
+    background-color:#b4afaf;
     margin-bottom:  10px;
 }
 
@@ -30,7 +34,7 @@ img {
 }
 
 main {    
-    background-color: #E5E5E5 ;    
+    background-color: #b4afaf ;    
 }
 
 table {
