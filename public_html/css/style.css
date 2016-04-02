@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 31 mars 2016, 18:12:46
     Author     : yaro
 */
-
+/*
 body {
     background-color: #FFF;
 }
@@ -88,11 +88,21 @@ footer {
     margin-left:auto;
     margin-right: auto;    
     /*border: 5px solid white;*/
-    radius:100%;
+  /*  radius:100%;
 }
 
 .img-carousel{
     opacity: 0.3;
     -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
+}
+*/
+
+head {
+    font-family: 'Yanone Kaffeesatz', sans-serif, Arial, serif; 
+}
+
+.headstyle {
+    background-color: #000;
+    color:#FFF;
 }
