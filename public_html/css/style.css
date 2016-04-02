@@ -98,11 +98,59 @@ filter: grayscale(100%);
 }
 */
 
-head {
+/* General Style*/
+body {
     font-family: 'Yanone Kaffeesatz', sans-serif, Arial, serif; 
+    background-image: url("http://www.detourage.com/fonds-gris-gratuit-libre-de-droits/fonds-gris-gratuit-libre-de-droits/fonds_gris_detourercom_023_tension.jpg");
 }
 
+header{
+    margin-top: 10px;
+}
+/* Header Style*/
 .headstyle {
-    background-color: #000;
+    background-color: #000;    
     color:#FFF;
+}
+li {
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+.img_rene {
+    margin-left: 38px;
+}
+/* Main section Style*/
+article{
+    background:url("http://tomasina-paris.com/wp-content/uploads/2014/03/04.jpg");
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.panel {
+    margin:10px;
+}
+
+
+/* Footer Style*/
+
+.transbox {
+    /*margin: 30px;*/
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Galets.jpg/800px-Galets.jpg");
+}
+
+.transbox p{
+    color:#2d3240;
+    font-size: 1.5rem;
+}
+
+footer {    
+    margin-bottom:10px;
 }
